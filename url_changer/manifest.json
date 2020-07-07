@@ -1,0 +1,19 @@
+{
+    "name": "Change-Url",
+    "version": "1.0",
+    "description": "change url of test-blog.csdn.net",
+    "manifest_version": 2,
+    "content_scripts": [
+        {
+            "matches": [
+                "*://test-blog.csdn.net/*"
+            ],
+            "js": [
+                "change_url.js"
+            ]
+        }
+    ],
+    "permissions": [
+        "debugger"
+    ]
+}
