@@ -1,8 +1,9 @@
 {
-    "name": "Change-Url",
+    "name": "CSDN Extension",
     "version": "1.0",
-    "description": "change url of test-blog.csdn.net",
+    "description": "Extension of CSDN",
     "manifest_version": 2,
+    "author": "libw",
     "content_scripts": [
         {
             "matches": [
@@ -10,6 +11,14 @@
             ],
             "js": [
                 "change_url.js"
+            ]
+        },
+        {
+            "matches": [
+                "*://blog.csdn.net/*"
+            ],
+            "js": [
+                "click_more.js"
             ]
         }
     ],
