@@ -15,7 +15,8 @@
         },
         {
             "matches": [
-                "*://blog.csdn.net/*"
+                "*://blog.csdn.net/*",
+                "*://test-blog.csdn.net/*"
             ],
             "js": [
                 "click_more.js"
