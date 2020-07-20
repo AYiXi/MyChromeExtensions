@@ -1,5 +1,8 @@
 function click_more() {
-    document.getElementById('btn-readmore-zk').click()
+    btn = document.getElementById('btn-readmore-zk')
+    if (btn != null) {
+        btn.click()
+    }
 }
 
 window.onload = function() {
