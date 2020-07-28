@@ -10,20 +10,8 @@
                 "*://test-blog.csdn.net/*"
             ],
             "js": [
-                "change_url.js"
-            ]
-        },
-        {
-            "matches": [
-                "*://blog.csdn.net/*/article/*",
-                "*://test-blog.csdn.net/*/article/*"
-            ],
-            "js": [
-                "click_more.js"
+               "main.js"
             ]
         }
-    ],
-    "permissions": [
-        "debugger"
     ]
 }
