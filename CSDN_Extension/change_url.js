@@ -8,7 +8,9 @@ function change_url() {
     for (var v in urls) {
         var href = urls[v].href
         if (href != undefined) {
-            urls[v].href = href.replace('blog.csdn.net', 'test-blog.csdn.net')
+            if (href.indexOf('test-blog') < 0) {
+                urls[v].href = href.replace('blog.csdn.net', 'test-blog.csdn.net')
+            }
         }
     }
 }
